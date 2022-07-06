@@ -7,11 +7,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-
   pages;
+
   constructor(service:PagesService) { 
     this.pages=service.getPages();
+    this.pages.forEach(element => {
+      let str=element.charAt(0).toUpperCase()+element.slice(1);
+      element=str;
+      console.log(element);
+    });
   }
+
+
 
   ngOnInit(): void {
   }

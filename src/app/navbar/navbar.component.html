@@ -1,5 +1,6 @@
 <div class="topnav">
-    <a *ngFor="let page of pages" class="{{page}}" href="#{{page}}">
+    <a *ngFor="let page of pages" class="{{page}}" href="#{{page}}" routerLink="{{page}}">
         {{page}}
     </a>
   </div>
+  <router-outlet></router-outlet>
