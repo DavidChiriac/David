@@ -1,0 +1,32 @@
+#aboutMe{
+    display: flex;
+    align-items: center;
+}
+
+#imgOfMe{
+    border-radius: 25px;
+    margin: 10px;
+}
+
+#myName{
+    margin: 10px;
+    border-radius: 25px;
+    background: #ffffff;
+    padding: 20px;
+    font-size:medium;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: fit-content;
+    height:min-content;    
+}
+
+#presentation{
+    margin: 10px;
+    border-radius: 25px;
+    background: #ffffff;
+    padding: 20px;
+    width: 650px;
+    height: 150px;
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
