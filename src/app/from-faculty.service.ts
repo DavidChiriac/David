@@ -1,8 +1,8 @@
 
 export class FromFacultyService {
   getWhatIDid(){
-    return ["C","C++","Java","C#","Python","Matlab","Verilog","VHDL","HTML","CSS","Javascript",
-        "SQL","SQL server","Node js - express framework","Unity","Windows forms","OOP","Design patterns","SOLID","Kotlin"];
+    return ["C","C++","C#","Java","Python","Kotlin","HTML","CSS","Javascript","Matlab","Windows forms","Verilog","VHDL",
+        "SQL","SQL server","Node js - express framework","Unity","OOP","Design patterns","SOLID"];
   }
   constructor() { }
 }
