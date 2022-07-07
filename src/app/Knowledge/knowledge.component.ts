@@ -1,3 +1,4 @@
+import { FromFacultyService } from './../from-faculty.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,7 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class KnowledgeComponent implements OnInit {
 
-  constructor() { }
+  fromFaculty;
+  constructor(service: FromFacultyService) {
+    this.fromFaculty=service.getWhatIDid();
+   }
 
   ngOnInit(): void {
   }

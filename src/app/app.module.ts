@@ -1,3 +1,4 @@
+import { FromFacultyService } from './from-faculty.service';
 import { PagesService } from './pages.service';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -25,7 +26,8 @@ import { ContactComponent } from './Contact/contact.component';
     AppRoutingModule
   ],
   providers: [
-    PagesService
+    PagesService,
+    FromFacultyService
   ],
   bootstrap: [AppComponent]
 })
